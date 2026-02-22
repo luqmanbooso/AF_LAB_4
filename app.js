@@ -1,6 +1,8 @@
 console.log("NodeJS Lab 03 Started");
 
 const http = require('http');
+const https = require('https');
+const fs = require('fs');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
@@ -22,7 +24,7 @@ https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {
 
 }).on('error', (err) => {
   console.log("Error: " + err.message);
-const fs = require('fs');
+});
 
 fs.writeFile('file.txt', 'Hello World!', function (err) {
   if (err) throw err;
@@ -60,3 +62,4 @@ myPromise
   }
 }
 myFunction();
+
