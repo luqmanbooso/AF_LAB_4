@@ -1,0 +1,28 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-08-01",
+  "summary": {
+    "title": "Online Student Portal Threat Model",
+    "owner": "User",
+    "description": "A university online student portal allowing students to view exam results, lecturers to manage grades, and administrators to manage accounts.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Online Student Portal DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "User2",
+    "threatTop": 0
+  }
+}
